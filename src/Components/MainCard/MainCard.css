@@ -1,0 +1,108 @@
+.MainCard {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 47, 49);
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 5;
+    box-shadow: 0px 0px 30px 0px rgba(79, 227, 195, .2);
+}
+
+.Header {
+    height: 65%;
+    width: 100%;
+}
+
+.Avatar {
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AvatarWrapper {
+    margin-top: 15px;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Desc {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: default;
+}
+
+.Icons {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Butto {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(79, 227, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: rgb(41, 47, 49);
+    cursor: pointer;
+}
+
+.copy-div {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(79, 227, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    color: rgb(41, 47, 49);
+    cursor: pointer;
+}
+
+#text {
+    border-right: solid 3px transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    color: rgba(255, 255, 255, .70);
+}
+
+/* Animation */
+
+#text {
+    animation: animated-text 2s steps(12, end) 1s 1 normal both, animated-cursor 600ms steps(12, end) 5;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 120px;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: rgb(79, 227, 195);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
