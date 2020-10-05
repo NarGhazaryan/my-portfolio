@@ -10,10 +10,10 @@ export const jobsArr = [
         gitClone: "https://github.com/NarGhazaryan/retrocity.git",
         icons: (
             <div className="Icons">
-                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/retrocity">
+                <a target="_blank" rel="noopener noreferrer" title="GitHub" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/retrocity">
                     <img height="100%" alt="github page" src={gtIcon} />
                 </a>
-                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://retro-city.web.app">
+                <a target="_blank" rel="noopener noreferrer" title="Web Page" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://retro-city.web.app">
                     <img height="100%" alt="web page" src={glIcon} />
                 </a>
             </div>
@@ -25,10 +25,10 @@ export const jobsArr = [
         gitClone: "https://github.com/NarGhazaryan/js-constructor.git",
         icons: (
             <div className="JobIcons">
-                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/js-constructor">
+                <a target="_blank" rel="noopener noreferrer" title="GitHub" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/js-constructor">
                     <img height="100%" alt="github page" src={gtIcon} />
                 </a>
-                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://js-constructor-nar.web.app">
+                <a target="_blank" rel="noopener noreferrer" title="Web Page" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://js-constructor-nar.web.app">
                     <img height="100%" alt="web page" src={glIcon} />
                 </a>
             </div>
@@ -40,7 +40,7 @@ export const jobsArr = [
         gitClone: "https://github.com/NarGhazaryan/my-portfolio.git",
         icons: (
             <div className="JobIcons">
-                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/my-portfolio">
+                <a target="_blank" rel="noopener noreferrer" title="GitHub" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/my-portfolio">
                     <img height="100%" alt="github page" src={gtIcon} />
                 </a>
             </div>
@@ -52,7 +52,7 @@ export const jobsArr = [
         gitClone: "https://github.com/NarGhazaryan/honey-morning.git",
         icons: (
             <div className="JobIcons">
-                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/honey-morning">
+                <a target="_blank" rel="noopener noreferrer" title="GitHub" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/honey-morning">
                     <img height="100%" alt="github page" src={gtIcon} />
                 </a>
             </div>
