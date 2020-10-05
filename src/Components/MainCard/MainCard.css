@@ -1,4 +1,5 @@
 .MainCard {
+    min-width: 320px;
     width: 100%;
     height: 100%;
     background-color: rgb(41, 47, 49);
@@ -82,7 +83,7 @@
 /* Animation */
 
 #text {
-    animation: animated-text 2s steps(12, end) 1s 1 normal both, animated-cursor 600ms steps(12, end) 5;
+    animation: animated-text 2s steps(13, end) 1s 1 normal both, animated-cursor 600ms steps(13, end) 5;
 }
 
 /* text animation */
@@ -92,7 +93,7 @@
         width: 0;
     }
     to {
-        width: 120px;
+        width: 130px;
     }
 }
 

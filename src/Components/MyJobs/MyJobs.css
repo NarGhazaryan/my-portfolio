@@ -9,6 +9,7 @@
 }
 
 .MainWrapper {
+    min-width: 320px;
     width: 40vw;
     height: 40vh;
     display: flex;

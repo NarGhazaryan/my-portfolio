@@ -46,4 +46,17 @@ export const jobsArr = [
             </div>
         )
     },
+    {
+        title: "Honey Morning",
+        description: "React Native | Frontend",
+        gitClone: "https://github.com/NarGhazaryan/honey-morning.git",
+        icons: (
+            <div className="JobIcons">
+                <a target="_blank" rel="noopener noreferrer" style={{ height: "2.3rem", paddingBottom: 30 }} href="https://github.com/NarGhazaryan/honey-morning">
+                    <img height="100%" alt="github page" src={gtIcon} />
+                </a>
+            </div>
+        )
+    },
+
 ]
