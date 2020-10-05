@@ -58,7 +58,7 @@ const Main = () => {
                 <div style={{ width: '21vw', height: '50vh', display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <MainCard from="profile" description="JS Developer" title="Narek Ghazaryan" scrollToRef={scrollToRef} >
                         <div onClick={scrollToRef} className="Butto" >
-                            My Jobs
+                            My Work
                         </div>
                     </MainCard>
                 </div>
