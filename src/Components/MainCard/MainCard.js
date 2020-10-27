@@ -32,7 +32,7 @@ const MainCard = ({ icons, from, children, title, description, jobImg }) => {
             <div className="Header">
                 <div className="Avatar">
                     <div className="AvatarWrapper">
-                        <img style={{ width: "115%", height: "115%", backgroundSize: "cover" }} alt="Avatar" src={from === 'profile' ? AvatarImg : jobImg} />
+                        <img style={{ width: "100%", height: "100%", backgroundSize: "cover" }} alt="Avatar" src={from === 'profile' ? AvatarImg : jobImg} />
                     </div>
                 </div>
                 <div className="Desc">
